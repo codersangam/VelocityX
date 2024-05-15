@@ -451,7 +451,6 @@ class AStack extends StatelessWidget {
   Widget build(BuildContext context) {
     return OverflowBar(
       key: key,
-      clipBehavior: clipBehavior,
       overflowAlignment: overflowAlignment,
       overflowDirection: overflowDirection,
       overflowSpacing: overflowSpacing,
